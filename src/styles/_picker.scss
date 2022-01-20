@@ -1,0 +1,11 @@
+.emojiPicker{
+    height: 50vh;
+    border: 2.5px solid rgb(152, 166, 187);
+    border-radius: 0 0 20px 20px;
+    padding: 1%;
+    overflow: scroll;
+    cursor: pointer;
+    background-color: rgb(217, 227, 243);
+    z-index: 0;
+    position: relative;
+}

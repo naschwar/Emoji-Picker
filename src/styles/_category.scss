@@ -1,0 +1,33 @@
+h1{
+    font-size: 1.2rem;
+}
+
+.emojiCategory{
+    padding: 0 2% 5% 2%;
+}
+
+.categoryContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1% 2%;
+}
+
+.emojiChar{
+    flex: 1 1 1;
+    font-size: 1.6rem;
+    padding: 1.25%;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.expandedSet{
+    width: 96%;
+    padding: 0 2% 5% 2%;
+    position: absolute;
+    z-index: 10;
+    background-color: rgb(186, 201, 121);
+    border-radius: 20px;
+    padding: .5%;
+}
